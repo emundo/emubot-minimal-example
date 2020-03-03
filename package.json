@@ -1,0 +1,25 @@
+{
+  "name": "emubot-minimal-setup",
+  "version": "0.1.0",
+  "description": "Middleware for bots for different messengers and NLU services",
+  "keywords": [
+    "bot",
+    "bot framework",
+    "@emundo/emubot",
+    "emubot",
+    "minimal setup"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@emundo/emubot": "0.5.0",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node dist/main.js",
+    "cli-client": "node ./node_modules/@emundo/emubot/dist/src/tools/cli.js"
+  },
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
+}
