@@ -1,6 +1,6 @@
 {
   "name": "emubot-minimal-setup",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Middleware for bots for different messengers and NLU services",
   "keywords": [
     "bot",
@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@emundo/emubot": "0.5.0",
+    "@emundo/emubot": "1.0.0",
     "typescript": "3.7.5"
   },
   "scripts": {
